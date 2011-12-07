@@ -19,9 +19,10 @@ public class ObjProxy implements Mover, Accelerator {
     	if (null != _mover)
     		_mover.move();
     }
-    public void setSpeed (int xSpeed, int ySpeed) {
+    public void setSpeed (int aSpeed) {
     	if (null != _mover)
-    		_mover.setSpeed(xSpeed);
+    		//_mover.setSpeed(xSpeed);
+        ;
     }
     public void setSelected (boolean aValue) {
     	if (null != _mover)
